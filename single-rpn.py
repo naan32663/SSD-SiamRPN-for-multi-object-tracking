@@ -77,7 +77,7 @@ if __name__ == '__main__':
     orgim1_h = 1920
     
     #read images 
-    image_files1 = sorted(glob.glob('D:/120/SiameseX.PyTorch-master/data/test4/*.jpg'))
+    image_files1 = sorted(glob.glob('../data/test4/*.jpg'))
 
 
     # Set the colors for the bounding boxes
@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
     classes = ['background', 'pedestrian','bicycle','car','motorcycle','bus','truck','scooter']
     
-    initbox1 = readResult("D:/120/SiameseX.PyTorch-master/data/test4/result.txt")
+    initbox1 = readResult("../data/test4/result.txt")
     templist1=getInitTemplist(initbox1)
     
 
