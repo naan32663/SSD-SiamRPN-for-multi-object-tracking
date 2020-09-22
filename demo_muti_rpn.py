@@ -22,7 +22,7 @@ from torch.autograd import Variable
 from ssd import build_ssd
 from demo_rpn_utils.net import *
 from demo_rpn_utils.run_SiamRPN import SiamRPN_init, SiamRPN_track
-from demo_rpn_utils.utils import get_axis_aligned_bbox, cxy_wh_2_rect, load_net
+from demo_rpn_utils.utils import Tracker, cxy_wh_2_rect, load_net
 
 
 parser = argparse.ArgumentParser(description='PyTorch SiameseX demo')
